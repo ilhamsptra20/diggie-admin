@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+.sidebar-link-active {
+    @apply flex rounded-md p-2 cursor-pointer hover:bg-secondary bg-secondary text-gray-300 text-sm items-center gap-x-4;
+}
+.sidebar-link {
+    @apply flex rounded-md p-2 cursor-pointer hover:bg-secondary hover:text-gray-300 text-white text-sm items-center gap-x-4;
+}
+@tailwind utilities;
